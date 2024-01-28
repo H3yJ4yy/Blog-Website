@@ -1,0 +1,26 @@
+[
+  {
+    "name": " How MVC provides a faster development process",
+    "description": "MVC supports rapid and parallel development. MVC model can be completed three times faster than applications that are developed using other development patterns."
+  },
+  {
+    "name": "Ability To Provide Multiple Views",
+    "description": "Today, there is an increasing demand for new ways to access your application and for that MVC development is certainly a great solution. Moreover, in this method, Code duplication is very limited because it separates data and business logic from the display."
+  },
+  {
+    "name": "Support For Asynchronous Technique:",
+    "description": "MVC also supports an asynchronous technique, which helps developers to develop an application that loads very fast"
+  },
+  {
+    "name": "The Modification Does Not Affect The Entire Model",
+    "description": "It is obvious that you make frequent changes in your web application like changing colors, fonts, screen layouts, and adding new device support for mobile phones or tablets. Moreover, Adding a new type of view are very easy in the MVC pattern because the Model part does not depend on the views part."
+  },
+  {
+    "name": "MVC Model Returns The Data Without Formatting",
+    "description": "MVC pattern returns data without applying any formatting. Hence, the same components can be used and called for use with any interface."
+  },
+  {
+    "name": "SEO Friendly Development Platform:",
+    "description": "There are many web development companies providing MVC development services to develop web applications that satisfy every requirement of the clients."
+  }
+]
