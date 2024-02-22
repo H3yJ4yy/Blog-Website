@@ -1,3 +1,10 @@
+.share-tech mono-regular {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
@@ -7,18 +14,54 @@ header, .project:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #1c4935;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
-  color: #065b83;
+  color: #068362;
   text-decoration: underline;
 }
+ 
+body{
+  background-color: #0f3221a0;
+}
+h1, a{
+  color: #c5eed1;
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+}
+.btn.btn-primary{
+  background-color: #19322e;
+  padding: 5px;
+  border-radius: 5px;
+}
+.blog{
+  background-color: #06836275;
+  padding: 2%;
+  border-radius: 5px;
+  border-style: double;
+}
+main{
+  color: #d9d9d9;
+}
+
+.text-center{
+  background-color: #06836275;
+  padding: 2%;
+  border-radius: 5px;
+  border-style: double;
+}
+
+.comment-form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.blog-list{
+  background-color: #06836275;
+  padding: 2%;
+  border-radius: 5px;
+  border-style: double;
 }
