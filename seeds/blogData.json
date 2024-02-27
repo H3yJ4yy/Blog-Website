@@ -5,7 +5,7 @@
   },
   {
     "name": "Ability To Provide Multiple Views",
-    "description": "Today, there is an increasing demand for new ways to access your application and for that MVC development is certainly a great solution. Moreover, in this method, Code duplication is very limited because it separates data and business logic from the display."
+    "description": "Today, there is an increasing demand for new ways to access your application and for that MVC development is certainly a great solution."
   },
   {
     "name": "Support For Asynchronous Technique:",
@@ -13,7 +13,7 @@
   },
   {
     "name": "The Modification Does Not Affect The Entire Model",
-    "description": "It is obvious that you make frequent changes in your web application like changing colors, fonts, screen layouts, and adding new device support for mobile phones or tablets. Moreover, Adding a new type of view are very easy in the MVC pattern because the Model part does not depend on the views part."
+    "description": "It is obvious that you make frequent changes in your web application like changing colors, fonts, screen layouts, and adding new device support for mobile phones or tablets."
   },
   {
     "name": "MVC Model Returns The Data Without Formatting",

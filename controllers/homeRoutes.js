@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Blog, User } = require("../models");
+const { Blog, User, Comment } = require("../models");
 const withAuth = require("../utils/auth");
 //tested
 router.get("/", async (req, res) => {
@@ -54,10 +54,12 @@ router.get("/blog/:id", async (req, res) => {
 //tested
 // Use withAuth middleware to prevent access to route
 router.get("/profile", withAuth, async (req, res) => {
- const userData = await User.findOne({where: {id: req.session.user_id}, include: [Blog]});
-const user = userData.get({plain: true})
-  res.render("profile", {...user});
-  // res.json(user)
+ const blogData = await Blog.findAll({where: {user_id: 1}})
+ const blogs = blogData.map((blog) => blog.get({ plain: true }));
+  res.render("profile", {
+    blogs, 
+    logged_in: req.session.logged_in
+  })
 });
 
 //tested
