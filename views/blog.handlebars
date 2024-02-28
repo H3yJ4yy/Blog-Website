@@ -12,15 +12,18 @@
             </form>
         </section>
 
+    </div>
+<div class="commentSection">
+    <h4>Comment section: </h4>  
+<div class="comments">
 <section> 
-  <h4>comment: </h4>
   {{#each comments as |comment|}}
   <p>{{comment.post}}</p>
   <p> By: {{comment.user.name}}</p>
   {{/each}}
 </section>
-
-    </div>
+</div>
+</div>
  <script src="../js/comment.js">
 
  </script>
