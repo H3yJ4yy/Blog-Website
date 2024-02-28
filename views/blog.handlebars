@@ -11,7 +11,15 @@
                 <button type="submit" class="btn btn-primary" >Submit Comment</button>
             </form>
         </section>
-      
+
+<section> 
+  <h4>comment: </h4>
+  {{#each comments as |comment|}}
+  <p>{{comment.post}}</p>
+  <p> By: {{comment.user.name}}</p>
+  {{/each}}
+</section>
+
     </div>
  <script src="../js/comment.js">
 
